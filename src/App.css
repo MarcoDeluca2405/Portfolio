@@ -1,5 +1,11 @@
 :root{
-  background-color: #444242;
+  background-color: #f5f5f5;
+  background-image: url("../public/Png/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
 }
 
 
