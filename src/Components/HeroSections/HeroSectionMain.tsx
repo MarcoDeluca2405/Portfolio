@@ -5,7 +5,7 @@ import gsap from "gsap";
 import { addAnimation } from "../../Redux/States/stateSlice";
 
 const DivHeroSection = styled.div`
-  width: 90%;
+  width: 60%;
   /* background-color: red; */
   display: inline-grid;
   grid-template-columns: 60% 40%;
@@ -22,11 +22,22 @@ const DivDescription = styled.div`
 const DivImage = styled.div`
   width: 100%;
   height: 100%;
+  position: relative;
+  top: -55px;
+
+  @media screen and (max-width: 992px) {
+    top: -23px;
+  }
+
+  @media screen and (max-width: 768px) {
+    top: 0px;
+  }
+
   /* background-color: blue; */
 `;
 
 const TextLabel = styled.h2`
-  width: 90%;
+  width: 100%;
   margin-left: 20px;
   font-size: 30px;
   background: linear-gradient(to right, #ffffff, #cccccc, #c9c9c9, #999999);
@@ -45,6 +56,7 @@ const TextLabel = styled.h2`
 const Image = styled.img`
   width: 100%;
   height: 100%;
+  object-fit: contain;
 `;
 
 const HeroSection = () => {
@@ -89,10 +101,11 @@ const HeroSection = () => {
     <>
       <DivHeroSection ref={divHeroRef}>
         <DivDescription ref={divDescriptionRef}>
-          <TextLabel>Marco De luca Programmatore Full-Stack</TextLabel>
+          <TextLabel>Marco De luca</TextLabel>
+          <TextLabel>Programmatore Full-Stack</TextLabel>
         </DivDescription>
         <DivImage ref={divImageRef}>
-          <Image src="/Png/paguro-1.jpg" />
+          <Image src="/public/Png/profilo.png" />
         </DivImage>
       </DivHeroSection>
     </>

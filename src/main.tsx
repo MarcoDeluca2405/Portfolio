@@ -8,13 +8,13 @@ import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAoyC08R7sI61a1-xvOO8uG3ffjdf2OztE",
-  authDomain: "porfolio-delux.firebaseapp.com",
-  projectId: "porfolio-delux",
-  storageBucket: "porfolio-delux.firebasestorage.app",
-  messagingSenderId: "972723532696",
-  appId: "1:972723532696:web:56c6e0b0f62c51af1df1ed",
-  measurementId: "G-052CCNCJTB",
+  apiKey: "AIzaSyBzt0r2F3JmjADfOu2HFkahn9dhnD-JY2U",
+  authDomain: "portfolio-marcodeluca.firebaseapp.com",
+  projectId: "portfolio-marcodeluca",
+  storageBucket: "portfolio-marcodeluca.firebasestorage.app",
+  messagingSenderId: "209172079851",
+  appId: "1:209172079851:web:348a05a8b5d788f41e0aae",
+  measurementId: "G-1R9X4X864X",
 };
 
 const app = initializeApp(firebaseConfig);
