@@ -443,7 +443,7 @@ const HeroSectionVideo = () => {
               <DivPlayer isHover={isHover}>
                 <DivIcon>
                   <IconPlayer
-                    src={`/public/Png/${isPlayed ? "pause.png" : "play.png"}`}
+                    src={`/Png/${isPlayed ? "pause.png" : "play.png"}`}
                     onClick={handleChangePlayed}
                   />
                 </DivIcon>
@@ -458,7 +458,7 @@ const HeroSectionVideo = () => {
                 </DivScrollTime>
                 <DivAudio>
                   <ImageAudio
-                    src="/public/Png/volume.png"
+                    src="/Png/volume.png"
                     isPressAudio={isPressAudio}
                     onClick={() => setIsPressAudio(!isPressAudio)}
                   />
