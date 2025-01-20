@@ -105,7 +105,7 @@ const HeroSection = () => {
           <TextLabel>Programmatore Full-Stack</TextLabel>
         </DivDescription>
         <DivImage ref={divImageRef}>
-          <Image src="/public/Png/profilo.png" />
+          <Image src="/Png/profilo.png" />
         </DivImage>
       </DivHeroSection>
     </>
